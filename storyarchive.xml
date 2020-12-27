@@ -2871,6 +2871,17 @@
         <tag>TG</tag>
       </tags>
     </story>
+    <story>
+      <title>GRFN</title>
+      <link>https://pastebin.com/mciBa3ZG</link>
+      <publicationdate>2020-12-26</publicationdate>
+      <tags>
+        <tag>Greentext</tag>
+        <tag>Complete</tag>
+        <tag>Gryphon</tag>
+        <tag>Short</tag>
+      </tags>
+    </story>
   </author>
   <author>
     <name>Ephemeral</name>
@@ -6054,6 +6065,7 @@
         <tag>Explicit</tag>
         <tag>Prose</tag>
         <tag>Complete</tag>
+        <tag>Gryphon</tag>
         <tag>Magic</tag>
       </tags>
     </story>
@@ -6065,6 +6077,7 @@
         <tag>Explicit</tag>
         <tag>Prose</tag>
         <tag>Science</tag>
+        <tag>Gryphon</tag>
         <tag>Forced Slavery</tag>
         <tag>Kidnapping</tag>
       </tags>
