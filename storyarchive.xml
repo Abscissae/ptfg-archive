@@ -3179,6 +3179,15 @@
         <tag>Possession</tag>
       </tags>
     </story>
+    <story>
+      <title>My Own Story</title>
+      <link>https://ponepaste.org/3240</link>
+      <publicationdate>2020-01-04</publicationdate>
+      <tags>
+        <tag>Greentext</tag>
+        <tag>Tulpa</tag>
+      </tags>
+    </story>
   </author>
   <author>
     <name>Fauvra</name>
@@ -3486,6 +3495,32 @@
         <tag>Prose</tag>
         <tag>TG</tag>
         <tag>Gore</tag>
+      </tags>
+    </story>
+  </author>
+  <author>
+    <name>Gachimucher</name>
+    <link>https://ponepaste.org/user/Gachimucher</link>
+    <story>
+      <title>Pink Socks</title>
+      <link>https://ponepaste.org/1499</link>
+      <publicationdate>2020-12-06</publicationdate>
+      <tags>
+        <tag>Prose</tag>
+        <tag>Complete</tag>
+        <tag>TG</tag>
+        <tag>Anthro</tag>
+      </tags>
+    </story>
+    <story>
+      <title>Hooves and Chitin</title>
+      <link>https://ponepaste.org/1498</link>
+      <publicationdate>2020-12-06</publicationdate>
+      <tags>
+        <tag>Prose</tag>
+        <tag>Complete</tag>
+        <tag>TG</tag>
+        <tag>Changeling</tag>
       </tags>
     </story>
   </author>
