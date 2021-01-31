@@ -465,7 +465,7 @@
       <chapters>
         <chapter>
           <name>1</name>
-          <link>https://pastebin.com/FadhmN9wc</link>
+          <link>https://pastebin.com/FadhmN9w</link>
         </chapter>
         <chapter>
           <name>2</name>
@@ -8876,18 +8876,21 @@
       </tags>
     </story>
     <story>
-        <title>Celestia's Awakening</title>
-        <publicationdate>2012-11-18</publicationdate>
-        <chapters>
-            <chapter>
-                <name>P</name>
-                <link>https://pastebin.com/Qq6dc9SL</link>
-            </chapter>
-            <chapter>
-                <name>1</name>
-                <link>https://pastebin.com/rKKkVdde</link>
-            </chapter>
-        </chapters>
+      <title>Celestia's Awakening</title>
+      <publicationdate>2012-11-18</publicationdate>
+      <chapters>
+          <chapter>
+              <name>P</name>
+              <link>https://pastebin.com/Qq6dc9SL</link>
+          </chapter>
+          <chapter>
+              <name>1</name>
+              <link>https://pastebin.com/rKKkVdde</link>
+          </chapter>
+      </chapters>
+      <tags>
+        <tag>Prose</tag>
+      </tags>
     </story>
   </author>
   <author>
