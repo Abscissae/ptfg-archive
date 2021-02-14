@@ -1431,6 +1431,7 @@
         <tag>Greentext</tag>
         <tag>Complete</tag>
         <tag>TG</tag>
+        <tag>Virtual Reality</tag>
         <tag>Short</tag>
       </tags>
     </story>
@@ -1441,6 +1442,7 @@
       <tags>
         <tag>Greentext</tag>
         <tag>TG</tag>
+        <tag>Virtual Reality</tag>
       </tags>
     </story>
   </author>
@@ -5674,6 +5676,19 @@
     </story>
   </author>
   <author>
+    <name>Ponefluff</name>
+    <link>https://ponepaste.org/user/Ponefluff</link>
+    <story>
+      <title>Pon-E Luna TF</title>
+      <link>https://ponepaste.org/4045</link>
+      <publicationdate>2021-02-13</publicationdate>
+      <tags>
+        <tag>Greentext</tag>
+        <tag>TG</tag>
+      </tags>
+    </story>
+  </author>
+  <author>
     <name>PonnyerEvigt</name>
     <story>
       <title>Don’t Do Drugs</title>
@@ -6812,9 +6827,10 @@
   </author>
   <author>
     <name>Some guy</name>
+    <link>https://poneb.in/u/someguytrip</link>
     <story>
       <title>Anon&gt;AB</title>
-      <link>https://pastebin.com/UDn8KLC8</link>
+      <link>https://poneb.in/UDn8KLC8</link>
       <publicationdate>2013-12-05</publicationdate>
       <tags>
         <tag>Greentext</tag>
