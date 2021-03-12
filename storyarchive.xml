@@ -4864,8 +4864,17 @@
     </story>
     <story>
       <title>Learning to Fly</title>
-      <link>https://ponepaste.org/4150</link>
       <publicationdate>2021-02-27</publicationdate>
+      <chapters>
+        <chapter>
+          <name>1</name>
+          <link>https://ponepaste.org/4150</link>
+        </chapter>
+        <chapter>
+          <name>2</name>
+          <link>https://ponepaste.org/4170</link>
+        </chapter>
+      </chapters>
       <tags>
         <tag>Greentext</tag>
         <tag>TG</tag>
