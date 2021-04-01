@@ -43,6 +43,7 @@ h1
 
 .additional 
 {
+  font-size: 11pt;
   margin-right: 50px;
   flex-shrink: 1;
 }
