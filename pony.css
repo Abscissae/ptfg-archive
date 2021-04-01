@@ -3,3 +3,187 @@ div.thread
 	display: inline-block;
 	width: 250px;
 }
+
+body
+{
+  font-family: arial;
+}
+
+header, footer
+{
+  width: 60%;
+  margin: 0 auto 20px;
+}
+
+main
+{
+  width: 60%;
+  margin: 0 auto;
+  font-size: 9pt;
+}
+
+h1
+{
+  font-size: 2em;
+  text-align: center; 
+  margin-bottom: 0px;
+}
+
+.help
+{
+  font-size: 90%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.additionaldiscord
+{
+  display: flex;
+}
+
+.additional 
+{
+  margin-right: 50px;
+  flex-shrink: 1;
+}
+
+.since
+{
+  text-align: center;
+  font-style: italic;
+}
+
+.description
+{
+  margin: 20px 0px;
+  font-style: italic;
+}
+
+.links
+{
+  width: 500px;
+  display: inline-block;
+  vertical-align: top;
+  min-height: 254px;
+}
+
+.original
+{
+  color: #000;
+}
+
+header>img
+{
+  display: inline-block;
+  float: right;
+}
+
+h2
+{
+  margin-bottom: 30px;
+  font-size: 11pt;
+}
+
+h3, h4
+{
+  font-size: 1em;
+  margin: 0;
+}
+
+h3
+{
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+h4
+{
+  display: inline;
+  font-weight: normal;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+a:link, a:visited
+{
+  color: #1155cc;
+}
+
+section
+{
+  margin-bottom: 15px;
+}
+
+article
+{
+  text-indent: 40px;
+}
+
+time
+{
+  float: right;
+  color: #666666;
+}
+
+.synopsis
+{
+  text-indent: 0;
+  font-style: italic;
+}
+
+.tags
+{
+  color: #666666;
+}
+
+.prose
+{
+  color: #274e13;
+}
+
+.greentext , .links
+{
+  color: #789922;
+}
+
+.greentext::before , .greenprose::before
+{
+  content: ">";
+}
+
+.greenprose
+{
+  background: linear-gradient(90deg, #789922 55%, #274e13 56%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.clop, .links>a
+{
+  color: #ff0000;
+}
+
+.orphaned
+{
+  color: #d5a6bd;
+}
+
+.complete
+{
+  color: #674ea7;
+}
+
+.explicit
+{
+  color: #ff9900;
+}
+
+.poetry
+{
+  color: #6aa84f;
+}
+
+.audio
+{
+  color: #3c78d8;
+}
