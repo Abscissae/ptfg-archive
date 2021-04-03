@@ -120,6 +120,11 @@ article
   text-indent: 40px;
 }
 
+main article:hover
+{
+  background: #f0f0f0;
+}
+
 time
 {
   float: right;
