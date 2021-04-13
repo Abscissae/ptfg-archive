@@ -9,17 +9,10 @@ body
   font-family: arial;
 }
 
-header, footer
+header, footer, main
 {
-  width: 60%;
+  max-width: 1132px;
   margin: 0 auto 20px;
-}
-
-main
-{
-  width: 60%;
-  margin: 0 auto;
-  font-size: 9pt;
 }
 
 h1
@@ -118,6 +111,7 @@ section
 article
 {
   text-indent: 40px;
+  margin-bottom: 5px;
 }
 
 main article:hover
