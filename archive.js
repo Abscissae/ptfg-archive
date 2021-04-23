@@ -1,7 +1,19 @@
 document.addEventListener("DOMContentLoaded", function(event) {
   var H = location.hash.substr(1);
-  if (document.getElementById(H) || H == "") return;
-  H=decodeURI(H.toLowerCase());
+  if (document.getElementById(H) || H.trim() == "") return;
+  H=decodeURI(H);  
+  document.getElementById("storysearch").value = H;
+  search(H);
+});
+
+function search(H)
+{
+  H = H.trim().toLowerCase();
+  if (H.length == 0)
+  {
+    displayAll();
+    return;
+  }
   
   var A = document.querySelectorAll("main section");
   var d = 0;
@@ -13,17 +25,19 @@ document.addEventListener("DOMContentLoaded", function(event) {
     for (j = 0; j < S.length; j++)
     {
       if (checkStory(S[j], H))
+      {
         c++;
+        S[j].style.display="";
+      }
       else
         S[j].style.display="none";
     }
     d+=c;
-    if (c==0)
-      A[i].style.display="none";
+    A[i].style.display=(c==0)?"none":"";
   }
   if (d==0)
     displayAll();
-});
+}
 
 function displayAll()
 {
@@ -35,6 +49,5 @@ function displayAll()
 
 function checkStory(story, search)
 {
-  var tags = story.querySelector("article>span:last-of-type").parentElement.innerText.toLowerCase();
-  return tags.includes(search);
+  return story.innerText.toLowerCase().includes(search);
 }
