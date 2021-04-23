@@ -37,6 +37,7 @@ function search(H)
   }
   if (d==0)
     displayAll();
+  document.getElementById("numstories").innerText = d+"/";
 }
 
 function displayAll()
@@ -45,6 +46,7 @@ function displayAll()
   A.forEach(e => e.style.display="");
   var S = document.querySelectorAll("main article");
   S.forEach(e => e.style.display="");
+  document.getElementById("numstories").innerText = "";
 }
 
 function checkStory(story, search)
