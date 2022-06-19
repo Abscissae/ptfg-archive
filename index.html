@@ -10,7 +10,7 @@
 <meta property="og:url" content="http://pone.tf" />
 <meta property="og:image" content="http://pone.tf/icon.png" />
 <meta property="og:description" content="PTFG - /mlp/'s thread for the writing, reading, and discussion of human-to-pony transformation stories." />
-<script src="archive.js"></script>
+<script src="archive.js?v=0"></script>
 </head>
 <body><header>
 <h1>Pony Transformation General</h1>
@@ -28,8 +28,16 @@
 <img style="width: 254px; height: 248px" src="pony.png" alt="A plushie has turned you into a pony. Is this awesome (y/n)?">
 </header>
 <main>
-<div id="storiesheader"><h2>Stories by author</h2><input id="storysearch" type="text" placeholder="Search" oninput="javascript:search(this.value)">
+<div id="storiesheader"><h2>Stories by author</h2>
+<input id="storysearch" type="search" placeholder="Search" oninput="javascript:search(this.value)">
+<select onchange="javascript:sortBy(this.value)">
+<option>Author</option>
+<option>New</option>
+<option>Old</option>
+</select>
 <div><span id="numstories"></span>597 stories</div></div>
+<div id="sortedstories"></div>
+<div id="storiesbyauthor">
 <section>
 <h3 id="Anonymous">Anonymous</h3>
 <article>
@@ -3898,6 +3906,7 @@
 <span> <span class="greentext">Greentext</span> [<span class="tags">Pony, TG</span>]</span>
 <time>2017-02-20</time>
 </article></section>
+</div>
 </main>
 <footer>
 <div class="help">Spot any mistakes or anything missing? Please point it out in our Discord or thread.<br>Help out by contributing synopses or by locating the missing stories.</div>
