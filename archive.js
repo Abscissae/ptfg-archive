@@ -15,7 +15,7 @@ function search(H)
     return;
   }
   
-  var A = document.querySelectorAll("main section");
+  var A = document.querySelectorAll(document.getElementById("sortedstories").hasChildNodes()?"#sortedstories":"main section");
   var d = 0;
   for (i = 0; i < A.length; i++)
   {
@@ -42,14 +42,33 @@ function search(H)
 
 function displayAll()
 {
-  var A = document.querySelectorAll("main section");
-  A.forEach(e => e.style.display="");
-  var S = document.querySelectorAll("main article");
-  S.forEach(e => e.style.display="");
+  document.querySelectorAll("main section, main article, #sortedstories").forEach(e => e.style.display="");
   document.getElementById("numstories").innerText = "";
 }
 
 function checkStory(story, search)
 {
   return story.innerText.toLowerCase().includes(search);
+}
+
+function sortBy(v)
+{
+	var N = document.getElementById("sortedstories");
+	var M = document.getElementById("storiesbyauthor");
+	N.replaceChildren();
+	if (v=="Author")
+	{
+		M.style.display="";
+		search(document.getElementById("storysearch").value);
+		return;
+	}
+	
+	var s = document.querySelectorAll("#storiesbyauthor article");
+	M.style.display="none";
+
+	if (v=="Old")
+		[...s].sort((a,b)=>a.querySelector("time").innerText>b.querySelector("time").innerText?1:-1).forEach(n=>N.appendChild(n.cloneNode(true)));
+	else if (v=="New")
+		[...s].sort((a,b)=>a.querySelector("time").innerText<b.querySelector("time").innerText?1:-1).forEach(n=>N.appendChild(n.cloneNode(true)));
+	search(document.getElementById("storysearch").value);
 }
