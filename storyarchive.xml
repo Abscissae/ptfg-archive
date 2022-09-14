@@ -9778,8 +9778,17 @@
     </story>
     <story>
       <title>Honey Pot</title>
-      <link>https://ponepaste.org/7973</link>
       <publicationdate>2022-09-12</publicationdate>
+      <chapters>
+        <chapter>
+          <name>P</name>
+          <link>https://ponepaste.org/7973</link>
+        </chapter>
+        <chapter>
+          <name>1</name>
+          <link>https://ponepaste.org/7983</link>
+        </chapter>
+      </chapters>
       <tags>
         <tag>Greentext</tag>
         <tag>AiE</tag>
