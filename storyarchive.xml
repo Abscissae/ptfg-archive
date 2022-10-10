@@ -5596,8 +5596,17 @@
     <link>https://ponepaste.org/user/MelodyMori</link>
     <story>
       <title>Smolder the Human's Adventures</title>
-      <link>https://ponepaste.org/8043</link>
       <publicationdate>2022-09-30</publicationdate>
+      <chapters>
+        <chapter>
+          <name>1</name>
+          <link>https://ponepaste.org/8043</link>
+        </chapter>
+        <chapter>
+          <name>2</name>
+          <link>https://ponepaste.org/8044</link>
+        </chapter>
+      </chapters>
       <tags>
         <tag>Greentext</tag>
         <tag>AiE</tag>
