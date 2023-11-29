@@ -4179,6 +4179,34 @@
       <title>Untitled</title>
       <link>https://drive.google.com/drive/folders/0BxuNjzepyHzoSU1yM1dCRVhMN2M</link>
       <publicationdate>2012-06-21</publicationdate>
+      <chapters>
+        <chapter>
+          <name>1</name>
+          <link>https://docs.google.com/document/d/1_BCwkeIVUFGJDIxRhHOofaxFQEkzVWm0bXalIXwEbFo/edit</link>
+        </chapter>
+        <chapter>
+          <name>2</name>
+          <link>https://docs.google.com/document/d/1i5Dx7at883WSpB_9YG41FEnU7W-2LvgQQQjPFziuuz4/edit</link>
+        </chapter>
+      </chapters>
+      <alternates>
+        <alternate>
+          <name>Original 1</name>
+          <link>https://pastebin.com/sYv1u0Lw</link>
+        </alternate>
+        <alternate>
+          <name>2</name>
+          <link>https://pastebin.com/PtWf1gC0</link>
+        </alternate>
+        <alternate>
+          <name>3</name>
+          <link>https://pastebin.com/0RdjVZJs</link>
+        </alternate>
+        <alternate>
+          <name>4</name>
+          <link>https://pastebin.com/dQ7xwvLu</link>
+        </alternate>
+      </alternates>
       <tags>
         <tag>Prose</tag>
         <tag>Orphaned</tag>
