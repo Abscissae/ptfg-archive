@@ -5872,8 +5872,17 @@
     <link>https://ponepaste.org/user/meslam</link>
     <story>
       <title>Nemetona</title>
-      <link>https://ponepaste.org/9521</link>
       <publicationdate>2023-11-12</publicationdate>
+      <chapters>
+        <chapter>
+          <name>1</name>
+          <link>https://ponepaste.org/9521</link>
+        </chapter>
+        <chapter>
+          <name>2</name>
+          <link>https://ponepaste.org/9707</link>
+        </chapter>
+      </chapters>
       <tags>
         <tag>Greentext</tag>
         <tag>Gryphon</tag>
