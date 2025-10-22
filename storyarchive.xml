@@ -7266,8 +7266,17 @@
     <link>https://ponepaste.org/user/Penname</link>
     <story>
       <title>An Anonpony Romance</title>
-      <link>https://ponepaste.org/11309</link>
       <publicationdate>2025-08-17</publicationdate>
+      <chapters>
+        <chapter>
+          <name>1</name>
+          <link>https://ponepaste.org/11309</link>
+        </chapter>
+        <chapter>
+          <name>2</name>
+          <link>https://ponepaste.org/11461</link>
+        </chapter>
+      </chapters>
       <tags>
         <tag>Greentext</tag>
         <tag>Equestria</tag>
