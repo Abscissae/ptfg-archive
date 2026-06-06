@@ -133,9 +133,16 @@ Long
 
 # Gender and sexuality
 
-TG
-FtM TG
+MtM
+: Male to male
+FtF
+: Female to female
+MtF
+: Male to female
+FtM
+: Female to male
 MtI
+: Male to intersex
 TGish
 Futa
 Gay
