@@ -17,7 +17,6 @@ Explicit
 
 # Setting
 
-AiE
 PiE
 Earth
 Equestria
